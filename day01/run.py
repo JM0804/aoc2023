@@ -35,7 +35,7 @@ def solve(input_text: list[str]) -> int:
     return sum
 
 if __name__ == "__main__":
-    with open("day01_e.txt", "r") as f:
+    with open("e.txt", "r") as f:
         puzzle_input = f.read().splitlines()
     
     print(solve(puzzle_input))

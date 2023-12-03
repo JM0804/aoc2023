@@ -39,7 +39,7 @@ def solve_part2(input_text: list[list[str]]) -> int:
 
 
 if __name__ == "__main__":
-    with open("day02_m.txt", "r") as f:
+    with open("e.txt", "r") as f:
         puzzle_input = f.read().splitlines()
 
     split_input = [re.split(";|:", line)[1:] for line in puzzle_input]
